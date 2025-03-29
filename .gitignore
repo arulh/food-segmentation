@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.env
+*.venv
+Pipfile
+Pipfile.lock
+
+# Dependency management
+*.egg-info/
+*.dist-info/
+pip-wheel-metadata/
+
+# Logs and debug files
+logs/
+*.log
+nohup.out
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+.cache/
+*.mypy_cache/
+
+# Machine learning model files
+models/
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.onnx
+*.tflite
+*.pb
+
+# Dataset files
+data/
+*.csv
+*.tsv
+*.json
+*.zip
+*.tar
+*.gz
+*.parquet
+
+# Config and credentials
+config.yaml
+config.json
+secrets.json
+*.pem
+*.key
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Testing and coverage
+.coverage
+htmlcov/
+nosetests.xml
+pytest_cache/
+junit.xml
+
+# Build and distribution
+build/
+dist/
+*.whl
+
+# Misc
+.DS_Store
+Thumbs.db
+
